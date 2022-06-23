@@ -415,7 +415,7 @@ object DeduplicationSpec extends bloop.bsp.BspBaseSuite {
         assert(firstCompiledState.status == ExitStatus.Ok)
         assert(firstCliCompiledState.status == ExitStatus.Ok)
 
-        //assertValidCompilationState(firstCompiledState, projects)
+        // assertValidCompilationState(firstCompiledState, projects)
         assertValidCompilationState(firstCliCompiledState, projects)
         assertDifferentExternalClassesDirs(
           firstCliCompiledState,
@@ -533,7 +533,7 @@ object DeduplicationSpec extends bloop.bsp.BspBaseSuite {
         bspLogger,
         compileStartPromises = Some(compileStartPromises)
       ) { bspState =>
-        //val firstDelay = Some(random(400, 100))
+        // val firstDelay = Some(random(400, 100))
         val firstCompilation = bspState.compileHandle(`B`)
         val secondCompilation =
           waitUntilStartAndCompile(compiledState, `B`, startedFirstCompilation, cliLogger1)
