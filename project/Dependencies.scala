@@ -32,7 +32,7 @@ object Dependencies {
   val zipkinSenderVersion = "2.7.15"
   val asmVersion = "7.0"
   val snailgunVersion = "0.4.0"
-  val ztExecVersion = "1.11"
+  val ztExecVersion = "1.12"
   val debugAdapterVersion = "2.2.0-M1"
   val coursierInterfaceVersion = "1.0.6"
 
