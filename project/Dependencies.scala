@@ -100,5 +100,5 @@ object Dependencies {
 
   val libdaemonjvm = "io.github.alexarchambault.libdaemon" %% "libdaemon" % "0.0.10"
 
-  val svmSubs = "org.scalameta" %% "svm-subs" % "20.1.0"
+  val svmSubs = "org.scalameta" %% "svm-subs" % "20.2.0"
 }
