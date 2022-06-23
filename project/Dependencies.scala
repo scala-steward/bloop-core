@@ -18,7 +18,7 @@ object Dependencies {
   val sbtTestAgentVersion = "1.4.4"
   val junitVersion = "0.13.3"
   val directoryWatcherVersion = "0.8.0+6-f651bd93"
-  val monixVersion = "2.3.3"
+  val monixVersion = "3.4.1"
   val jsoniterVersion = "2.4.0"
   val shapelessVersion = "2.3.4"
   val scalaNative04Version = "0.4.0"
