@@ -59,7 +59,7 @@ object Dependencies {
   val ztExec = "org.zeroturnaround" % "zt-exec" % ztExecVersion
   val logback = "ch.qos.logback" % "logback-classic" % "1.2.3"
 
-  val utest = "com.lihaoyi" %% "utest" % "0.6.9"
+  val utest = "com.lihaoyi" %% "utest" % "0.7.11"
   val pprint = "com.lihaoyi" %% "pprint" % "0.5.5"
   val scalacheck = "org.scalacheck" %% "scalacheck" % "1.13.4"
   val junit = "com.github.sbt" % "junit-interface" % junitVersion
