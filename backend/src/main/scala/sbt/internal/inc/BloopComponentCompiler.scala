@@ -76,7 +76,7 @@ object BloopComponentCompiler {
    *   - The Scala version for which the compiler interface is meant to.
    *   - The JVM class version.
    *
-   * Example: "org.scala-sbt-compiler-bridge-1.0.0-bin_2.11.7__50.0".
+   * Example: "org.scala-sbt-compiler-bridge-1.0.4-bin_2.11.7__50.0".
    *
    * @param sources The moduleID representing the compiler bridge sources.
    * @param scalaInstance The scala instance that sets the scala version for the id.
